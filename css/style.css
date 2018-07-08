@@ -1,0 +1,518 @@
+/*
+font-family: 'Dosis', sans-serif;
+font-family: 'Lato', sans-serif;
+*/
+
+
+
+body{
+    background-image: url(../images/featured_bg.png);
+    font-family: 'Dosis', sans-serif;
+}
+/*header starts*/
+header{
+    background-color: #ffd338;
+}
+.custom_secondary{
+    border: none !important;
+    background:transparent !important;
+}
+.custom_icon{
+    padding:10px;
+    color:white;
+}
+.custom_2{
+    padding:10px;
+    color:white;
+}
+.custom_nav ul li a{
+    color: white !important;
+    padding: 0 20px !important;
+    border-radius: 15px;
+}
+.custom_nav ul li a:hover{
+        background-color: #f05c5c;
+}
+/*header ends*/
+/*banner starts*/
+#banner{
+    background-image: url(../images/cloud.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+/*    background-position: center;*/
+    min-height: 750px;
+}
+.banner_text{
+    margin: 300px 0;
+}
+.banner_text h1{
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    color: #707070;
+    font-size: 80px;
+}
+.banner_text h5{
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    color: #1ec0ff;
+    font-size: 48px;
+}
+.banner_arrow{
+    color: #d5d5d4;
+}
+.banner_arrow p{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #d5d5d4;
+}
+/*banner ends*/
+
+/*kid starts*/
+.kid{
+    padding: 50px;
+}
+.common_title{}
+.common_title h1{
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    color: #333333;
+    font-size: 30px;
+}
+.common_title hr{
+     width: 230px;
+    border-bottom: 3px dashed white;
+}
+.kid_content{
+    padding-top: 60px;
+}
+.kid_content h1{}
+.kid_content hr{
+    width: 200px;
+    margin-left:0; 
+}
+.kid_content p{
+      font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: light;
+    color: #666665;
+}
+.kid_content a{}
+.kid_img{
+    padding-top: 60px;
+}
+.kid_img img{
+    border-radius: 20px;
+}
+
+
+/*kid ends*/
+/*education starts*/
+.education{
+    background: url(../images/3rd_bg.png);
+     padding: 100px;
+}
+.single_100{
+    text-align: center;
+    margin-top: 50px;
+}
+.single_100 p{
+       font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+
+/*education ends*/
+.course{
+        padding: 100px !important;
+}
+/*card*/
+
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    border-bottom-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+    color: #4e4e4e;
+}
+
+.card-text {
+    clear: both;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+     font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: light;
+    color: #696969;
+}
+
+.card-footer {
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333333;
+    font-size: 1em;
+    position: static;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    color: rgba(0, 0, 0, .4);
+    border-top: 1px solid rgba(0, 0, 0, .05) !important;
+    background: #fff;
+}
+
+
+.profile {
+    position: absolute;
+    top: -25px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    right: 25px;
+}
+.profile h4{
+      font-family: 'Dosis', sans-serif;
+    font-weight: semi-bold;
+    font-size: 16px;
+    color:  #1ec0ff;
+}
+
+.profile-inline {
+    position: relative;
+    top: 0;
+    display: inline-block;
+}
+
+
+.meta {
+    font-size: 1em;
+    color: rgba(0, 0, 0, .4);
+}
+
+.meta a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .4);
+}
+
+.meta a:hover {
+    color: rgba(0, 0, 0, .87);
+}
+
+.custom_header{
+    border-bottom: none;
+    background-color: #1ec0ff;
+    border-top-right-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+    padding: 6px 20px;
+}
+.custom_header2{
+      border-bottom: none;
+    background-color: #56d47e;
+    border-top-right-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+    padding: 6px 20px;
+}
+.custom_header3{
+      border-bottom: none;
+    background-color: #f05c5c;
+    border-top-right-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+    padding: 6px 20px;
+}
+.custom_header4{
+      border-bottom: none;
+    background-color: #ffd338;
+    border-top-right-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+    padding: 6px 20px;
+}
+.h_text{
+      font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    color: white;
+}
+.art{
+    color: #1ec0ff !important;
+}
+.card_bottom{
+    padding-top: 60px;
+}
+/*memorable starts*/
+.memorable{
+    background: url(../images/memorable_bg.png);
+     background-size: cover;
+    background-repeat: no-repeat;
+    padding: 90px;
+}
+.view{
+    padding-top: 75px;
+}
+.img_control{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.img_control img{
+    border-radius: 15px;
+}
+/*teacher starts*/
+.custom_details{
+    padding: 70px;
+}
+.custom_link{
+     font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: light;
+}
+.custom_quote{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: light;
+}
+.custom_twit{
+    padding-bottom: 20px;
+}
+.teacher{
+    padding-bottom: 95px;
+}
+.teacher_content{
+    
+}
+.teacher_content h1{
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1ec0ff;
+}
+.teacher_content h5{
+     font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333333;
+}
+.teacher_content p{
+     font-family: 'Lato', sans-serif;
+    font-weight: light !important;
+    font-size: 14px;
+    color: #333333;
+    padding-top: 10px;
+}
+.teacher_content img{
+    text-align: center;
+        margin-bottom: 10px!important;
+
+}
+.follow{
+    font-family: 'Dosis', sans-serif!important;
+    font-weight: bold;
+    font-size: 18px;
+    color: #7e7e7d;
+    border-bottom: 1px solid #858584;
+    width: 69px;
+    padding-top: 10px;
+
+}
+.single{
+    padding-top: 50px;
+}
+/*doing start*/
+.doing{
+    background: url(../images/doings.jpeg);
+     background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+.doing_control{
+    padding-top: 20px;
+}
+.common_title2{}
+.common_title2 h1{
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    color: #56d47e;
+    font-size: 30px;
+}
+.common_title2 hr{
+     width: 230px;
+    border-bottom: 3px dashed white;
+}
+.commons{
+      font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+}
+.same_h{
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    color: #333333;
+    font-size: 24px;
+}
+.clk{
+    font-family: 'Lato', sans-serif;
+    font-weight: light !important;
+    font-size: 14px;
+    color: #1ec0ff;
+    padding: 0 5px;
+}
+.start{
+    font-family: 'Lato', sans-serif;
+    font-weight: light !important;
+    font-size: 14px;
+    color: #444444;
+}
+.fifteen_control{
+    margin: 10px;
+    margin-bottom: 10px;
+}
+.event_content{
+    padding: 20px;
+}
+.reg{
+    color: #fab786 !important;
+    border-bottom: 1px solid #fab786;
+    width: 80px;
+}
+.reg a{
+      color: #fab786 !important;
+}
+.event{
+    margin: 80px;
+}
+.ev{}
+.ev hr{
+    width: 325px;
+    border-bottom: 3px dotted #1ec0ff; 
+   float: left ;
+}
+.recent{
+    padding: 20px;
+}
+.recent img{
+    border-radius: 5px;
+}
+.ev{
+   width: 335px;
+}
+.same_h1{
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    color: #333333;
+    font-size: 24px;
+    margin-top: 15px;
+}
+/*footer starts*/
+.about{
+    background-image: url(../images/footer_cloudbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 635px;
+    padding-top: 240px;
+}
+.blue{
+    color: #1ec0ff;
+}
+.giraffe p{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #a5a5a5;
+}
+.cmn_style{
+    margin: 10px !important;
+}
+.instagram h2{
+     font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    color: #ffc852;
+    font-size: 24px;
+}
+.instagram hr{
+     border-bottom: 3px dotted #ffc852 !important;
+}
+.contact h2{
+     font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    color: #56d47e;
+    font-size: 24px;
+}
+.contact hr{
+     border-bottom: 3px dotted #56d47e !important;
+}
+.custom_list{
+      font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #4e4e4e;
+}
+.newsletter h2{
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    color: #f05c5c;
+    font-size: 24px;
+}
+.newsletter hr{
+    border-bottom: 3px dotted #f05c5c !important;
+}
+.contact_line ul li{
+       opacity: .5;
+    margin-top: 15px;
+    padding: 0px 6px;
+    color: gray; 
+}
+/*footer starts*/
+.footer{
+    background-color: #ffd338;
+}
+.footer_menu{
+    padding-top: 10px;
+}
+.footer_menu ul li{
+     font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+.clr{
+    color: white;
+}
+.copy_right{
+    padding-top: 10px;
+}
+.copy_right p{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 14px;
+}

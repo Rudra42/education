@@ -1,0 +1,198 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+    .kid_content {
+        text-align: center;
+    }
+    .kid_content hr {
+        width: 200px;
+        margin: 0 auto;
+    }
+    .card {
+        margin-top: 50px;
+    }
+    .course {
+        padding: 50px !important;
+    }
+      .teacher_content h1 {
+        text-align: center;
+    }
+    .teacher_content h5 {
+        text-align: center;
+    }
+    .teacher_content p {
+        text-align: center;
+    }
+        .teacher_content img{
+        text-align: center;
+    }
+    .follow {
+        text-align: center;
+    }
+    .t40_control{
+        text-align: center;
+    }
+        .logos{
+        text-align: center;
+    }
+    .follow_center{
+        text-align: center;
+    }
+     .doing_control{
+        text-align: center;
+        padding: 15px;
+    }
+        .fifteen_control{
+        text-align: center !important;
+    }
+    .fifteen_control img{
+        text-align: center;
+    }
+    .event_content{
+        text-align: center;
+    }
+     .recent{
+        text-align: center;
+    }
+    .ev{
+        text-align: center;
+        margin: 0 auto;
+    }
+        .giraffe{
+        padding-top: 10px;
+        text-align: center;
+    }
+    .contact{
+         padding-top: 10px;
+          text-align: center;
+    }
+    .newsletter{
+         padding-top: 10px;
+          text-align: center;
+    }
+    .instagram{
+         padding-top: 10px;
+          text-align: center;
+    }
+     .footer_menu{
+        text-align: center;
+    }
+    .copy_right{
+        text-align: center;
+    }
+
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .kid_content {
+        text-align: center;
+    }
+    .kid_content hr {
+        width: 200px;
+        margin: 0 auto;
+    }
+    .card {
+        margin-top: 50px;
+    }
+    .course {
+        padding: 50px !important;
+    }
+      .teacher_content h1 {
+        text-align: center;
+    }
+    .teacher_content h5 {
+        text-align: center;
+    }
+    .teacher_content p {
+        text-align: center;
+    }
+        .teacher_content img{
+        text-align: center;
+    }
+/*
+    .follow {
+        text-align: center;
+    }
+*/
+    .t40_control{
+        text-align: center;
+    }
+    .logos{
+        text-align: center;
+    }
+    .follow_center{
+        text-align: center;
+    }
+    .doing_control{
+        text-align: center;
+        padding: 15px;
+    }
+    .fifteen_control{
+        text-align: center !important;
+    }
+    .fifteen_control img{
+        text-align: center;
+    }
+    .event_content{
+        text-align: center;
+    }
+    .recent{
+        text-align: center;
+    }
+    .ev{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .giraffe{
+        padding-top: 10px;
+        text-align: center;
+    }
+    .contact{
+         padding-top: 10px;
+          text-align: center;
+    }
+    .newsletter{
+         padding-top: 10px;
+          text-align: center;
+    }
+    .instagram{
+         padding-top: 10px;
+          text-align: center;
+    }
+    .footer_menu{
+        text-align: center;
+    }
+    .copy_right{
+        text-align: center;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .custom_2 {
+        padding: 10px;
+        color: white;
+        float: left !important;
+    }
+    .card {
+        margin-top: 50px;
+    }
+    .course {
+        padding: 50px !important;
+    }
+  
+}
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
